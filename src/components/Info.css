@@ -1,0 +1,20 @@
+.container-text-center {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.info {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.working-hours {
+    flex-flow: column;
+    text-align: center;
+}
+
+.working-hours > p {
+    padding: 0px auto;
+}

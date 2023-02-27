@@ -1,0 +1,45 @@
+.nav-flex-column {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  margin-top: 1rem;
+}
+
+.nav-items {
+  position: relative;
+  justify-content: center;
+}
+
+.nav-items > img {
+  display: block;
+  margin: 0px auto;
+  width: 55%;
+  height: 40%;
+}
+
+.nav-items > p {
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 55%;
+  height: 60%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .nav-items {
+    width: 70%;
+  }
+}
